@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B9B436EB25D4672FA32BB9 /* Pods_SmartSight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC2537101BC46084C6359CC /* Pods_SmartSight.framework */; };
+		6E12A6ED212B1A7100DB4E72 /* logoSmartSightFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E12A6EC212B1A7100DB4E72 /* logoSmartSightFinal.png */; };
+		6E1683C021265D1B00C7D36A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1683BF21265D1B00C7D36A /* AppDelegate.swift */; };
+		6E1683C221265D1B00C7D36A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1683C121265D1B00C7D36A /* ViewController.swift */; };
+		6E1683C521265D1B00C7D36A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1683C321265D1B00C7D36A /* Main.storyboard */; };
+		6E1683C721265D1F00C7D36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1683C621265D1F00C7D36A /* Assets.xcassets */; };
+		6E1683CA21265D1F00C7D36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1683C821265D1F00C7D36A /* LaunchScreen.storyboard */; };
+		6E1683DB212683E300C7D36A /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6E1683DA212683E200C7D36A /* MobileNet.mlmodel */; };
+		6E8F90BC21386F5600273CA4 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F90BB21386F5500273CA4 /* ContactViewController.swift */; };
+		6E8F90BE21388AF600273CA4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8F90BD21388AF600273CA4 /* MessageUI.framework */; };
+		6ED6FE6D213112AE00077911 /* CarRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6FE6C213112AB00077911 /* CarRecognition.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		638A7F7CB3B9B34626C3FAE1 /* Pods-SmartSight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSight.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSight/Pods-SmartSight.release.xcconfig"; sourceTree = "<group>"; };
+		6AC2537101BC46084C6359CC /* Pods_SmartSight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E12A6EC212B1A7100DB4E72 /* logoSmartSightFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSmartSightFinal.png; sourceTree = "<group>"; };
+		6E1683BC21265D1A00C7D36A /* SmartSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1683BF21265D1B00C7D36A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E1683C121265D1B00C7D36A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E1683C421265D1B00C7D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E1683C621265D1F00C7D36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E1683C921265D1F00C7D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E1683CB21265D1F00C7D36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1683DA212683E200C7D36A /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		6E8F90BB21386F5500273CA4 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		6E8F90BD21388AF600273CA4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6ED6FE6C213112AB00077911 /* CarRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarRecognition.mlmodel; sourceTree = "<group>"; };
+		E60A717F2E0151CC15E72948 /* Pods-SmartSight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSight/Pods-SmartSight.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E1683B921265D1A00C7D36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8F90BE21388AF600273CA4 /* MessageUI.framework in Frameworks */,
+				45B9B436EB25D4672FA32BB9 /* Pods_SmartSight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045C60B2D4EDE31B2B21766F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F90BD21388AF600273CA4 /* MessageUI.framework */,
+				6AC2537101BC46084C6359CC /* Pods_SmartSight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F406A3F08D5A5FC57AA8C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60A717F2E0151CC15E72948 /* Pods-SmartSight.debug.xcconfig */,
+				638A7F7CB3B9B34626C3FAE1 /* Pods-SmartSight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E1683B321265D1A00C7D36A = {
+			isa = PBXGroup;
+			children = (
+				6E1683BE21265D1A00C7D36A /* SmartSight */,
+				6E1683BD21265D1A00C7D36A /* Products */,
+				44F406A3F08D5A5FC57AA8C2 /* Pods */,
+				045C60B2D4EDE31B2B21766F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E1683BD21265D1A00C7D36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1683BC21265D1A00C7D36A /* SmartSight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1683BE21265D1A00C7D36A /* SmartSight */ = {
+			isa = PBXGroup;
+			children = (
+				6E1683DE21275BE900C7D36A /* Model */,
+				6E1683DD21275BE600C7D36A /* View */,
+				6E1683DC21275BE300C7D36A /* Controller */,
+				6E1683C621265D1F00C7D36A /* Assets.xcassets */,
+				6E12A6EC212B1A7100DB4E72 /* logoSmartSightFinal.png */,
+				6E1683CB21265D1F00C7D36A /* Info.plist */,
+			);
+			path = SmartSight;
+			sourceTree = "<group>";
+		};
+		6E1683DC21275BE300C7D36A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E1683BF21265D1B00C7D36A /* AppDelegate.swift */,
+				6E1683C121265D1B00C7D36A /* ViewController.swift */,
+				6E8F90BB21386F5500273CA4 /* ContactViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E1683DD21275BE600C7D36A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E1683C821265D1F00C7D36A /* LaunchScreen.storyboard */,
+				6E1683C321265D1B00C7D36A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E1683DE21275BE900C7D36A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ED6FE6C213112AB00077911 /* CarRecognition.mlmodel */,
+				6E1683DA212683E200C7D36A /* MobileNet.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E1683BB21265D1A00C7D36A /* SmartSight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1683CE21265D1F00C7D36A /* Build configuration list for PBXNativeTarget "SmartSight" */;
+			buildPhases = (
+				D5062928CADF98C59B8A3232 /* [CP] Check Pods Manifest.lock */,
+				6E1683B821265D1A00C7D36A /* Sources */,
+				6E1683B921265D1A00C7D36A /* Frameworks */,
+				6E1683BA21265D1A00C7D36A /* Resources */,
+				692249D8A05424064D4E7F67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSight;
+			productName = SmartSight;
+			productReference = 6E1683BC21265D1A00C7D36A /* SmartSight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E1683B421265D1A00C7D36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "AMoDynamics, Inc.";
+				TargetAttributes = {
+					6E1683BB21265D1A00C7D36A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E1683B721265D1A00C7D36A /* Build configuration list for PBXProject "SmartSight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E1683B321265D1A00C7D36A;
+			productRefGroup = 6E1683BD21265D1A00C7D36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1683BB21265D1A00C7D36A /* SmartSight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1683BA21265D1A00C7D36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1683CA21265D1F00C7D36A /* LaunchScreen.storyboard in Resources */,
+				6E1683C721265D1F00C7D36A /* Assets.xcassets in Resources */,
+				6E1683C521265D1B00C7D36A /* Main.storyboard in Resources */,
+				6E12A6ED212B1A7100DB4E72 /* logoSmartSightFinal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		692249D8A05424064D4E7F67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartSight/Pods-SmartSight-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSight/Pods-SmartSight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5062928CADF98C59B8A3232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartSight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E1683B821265D1A00C7D36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1683C221265D1B00C7D36A /* ViewController.swift in Sources */,
+				6ED6FE6D213112AE00077911 /* CarRecognition.mlmodel in Sources */,
+				6E1683DB212683E300C7D36A /* MobileNet.mlmodel in Sources */,
+				6E1683C021265D1B00C7D36A /* AppDelegate.swift in Sources */,
+				6E8F90BC21386F5600273CA4 /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E1683C321265D1B00C7D36A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1683C421265D1B00C7D36A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E1683C821265D1F00C7D36A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1683C921265D1F00C7D36A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E1683CC21265D1F00C7D36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E1683CD21265D1F00C7D36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E1683CF21265D1F00C7D36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60A717F2E0151CC15E72948 /* Pods-SmartSight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9D5XUD273;
+				INFOPLIST_FILE = SmartSight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SidhantNChadhaLive.AMoDynamics.SmartSight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E1683D021265D1F00C7D36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638A7F7CB3B9B34626C3FAE1 /* Pods-SmartSight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9D5XUD273;
+				INFOPLIST_FILE = SmartSight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SidhantNChadhaLive.AMoDynamics.SmartSight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E1683B721265D1A00C7D36A /* Build configuration list for PBXProject "SmartSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1683CC21265D1F00C7D36A /* Debug */,
+				6E1683CD21265D1F00C7D36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1683CE21265D1F00C7D36A /* Build configuration list for PBXNativeTarget "SmartSight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1683CF21265D1F00C7D36A /* Debug */,
+				6E1683D021265D1F00C7D36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E1683B421265D1A00C7D36A /* Project object */;
+}
